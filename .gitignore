@@ -1,0 +1,16 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/tmp
+
+# Ignore prod environment-specific directories.
+cache
+
+# Ignore dev environment-specific files.
+.DS_Store
+.idea
+
+# Ignore dev environment-specific modules.
+sites/all/modules/mail_redirect
